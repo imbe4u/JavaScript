@@ -12,4 +12,5 @@ var a=[12,12,13,24];
 var b=a;  //we are copying a but it is refrencing to an array so it is copying the refrence type.
 b.pop();
 console.log(b);
-console.log(a);//here we are removing one element from the array so it is removing from the refrence .
+console.log(a);//here we are removing one element from the array so it is removing from the refrence . 
+//if bracket is there than it is refrence otherwise primitive.
